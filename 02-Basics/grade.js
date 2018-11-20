@@ -3,20 +3,20 @@ function getMyGarde(currentMarks , totalMarks) {
     
     let myPercentage = (currentMarks/totalMarks) * 100
 
-    let myGrde = ""
+    let myGrade = ""
     if (myPercentage >= 90) {
-        myGrde = 'A'
+        myGrade = 'A'
     } else if (myPercentage >= 80) {
-        myGrde = 'B'
+        myGrade = 'B'
     } else if (myPercentage >= 70) {
-        myGrde = 'C'
+        myGrade = 'C'
     } else if (myPercentage >= 60) {
-        myGrde = 'D'
+        myGrade = 'D'
     } else {
-        myGrde = 'F'
+        myGrade = 'F'
     }
-  
-return `Your Grade is ${myGrde} and percentage is ${myPercentage}` 
+
+return `Your Grade is ${myGrade} and percentage is ${myPercentage}` 
 }
 
-console.log(getMyGarde(45,70));
+console.log(getMyGarde(65,70));
