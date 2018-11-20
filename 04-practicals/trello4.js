@@ -38,4 +38,4 @@ const findTodo = function (todos,myTitle) {
 let printMe = findTodo(newTodos,'Go To gym')
 console.log(printMe);
 
-//console.log(findingTodo);
+console.log(findingTodo);
